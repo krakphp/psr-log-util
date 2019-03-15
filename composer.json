@@ -1,0 +1,33 @@
+{
+    "name": "krak/psr-log-util",
+    "description": "PSR Logging Utilities",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+       "psr-3",
+       "log",
+       "logging",
+       "log-util",
+       "logging-utilities",
+       "utility"
+   ],
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krak\\PsrLogUtil\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
